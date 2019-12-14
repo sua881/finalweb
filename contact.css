@@ -1,0 +1,64 @@
+body
+{
+}
+
+
+#logo
+{
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 100px;
+  color:#3d3a3a;
+  text-align: right;
+}
+
+.sections
+{
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 30px;
+  color:#535050;
+  text-align: right;
+  position: relative;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#secondimg
+{
+width:300px;}
+
+.social
+{
+  width:40px;
+  left:150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact
+{
+  font-size: 50px;
+  font-weight: lighter;
+  color: #535050;
+  font-family: helvetica;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 10;
+
+}
+
+@keyframes example {
+  0%   {color:#cc7feb; left:0px; top:0px;}
+  25%  {color:#62387a; left:200px; top:0px;}
+  50%  {color:#dc91e0; left:200px; top:200px;}
+  75%  {color:#854a7b; left:0px; top:200px;}
+  100% {color:#e6b0da; left:0px; top:0px;}

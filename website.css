@@ -1,0 +1,57 @@
+body
+{
+
+}
+
+.sections
+{
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 30px;
+  color:#535050;
+  text-align: right;
+  position: relative;
+}
+#logo
+{
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 250px;
+  color:#3d3a3a;
+  text-align: right;
+  position: absolute;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#secondimg
+{
+width:300px;}
+
+.social
+{
+  width:50px;
+  left:150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#description{
+  font-size: 30px;
+  position: absolute;
+  font-weight: bold;
+  font-family:helvetica;
+  text-align: left;
+  top:400px;
+  padding-left: 50px;
+  padding-right:90%;
+  color:white;
+  font-weight: lighter;
+}
